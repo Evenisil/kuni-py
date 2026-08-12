@@ -1,0 +1,29 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+config.toml
+*.session
+*.session-journal
+.env
+
+# Data & Databases
+data/*.sqlite
+data/*.sqlite-journal
+data/*.db
+data/media_archive/
+data/*.mp3
+data/*.ogg
+data/*.jpg
+data/*.png
+
+# Logs
+logs/
+logs_proxy/
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
